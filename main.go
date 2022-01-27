@@ -1,14 +1,12 @@
 package main
 
 import (
-	"fmt"
-
-	"rsc.io/quote"
+	"github.com/NoraTronstad/is-105-mod1.git/myquote"
 )
 
 func main() {
-	fmt.Println(quote.Go())
-	fmt.Println(quote.Hello())
-	fmt.Println(quote.Glass())
-	fmt.Println(quote.Opt())
+	myquote.Glass()
+	myquote.Go()
+	myquote.Hello()
+	myquote.Opt()
 }
